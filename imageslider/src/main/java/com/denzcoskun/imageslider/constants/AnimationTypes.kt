@@ -19,5 +19,6 @@ enum class AnimationTypes(value: String) {
     ROTATE_DOWN("Rotate_Down"),
     GATE("Gate"),
     TOSS("Toss"),
+    FADE("Fade"),
     FIDGET_SPINNER("FidgetSpinner")
 }

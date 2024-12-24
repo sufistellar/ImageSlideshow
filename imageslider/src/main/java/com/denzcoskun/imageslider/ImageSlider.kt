@@ -176,6 +176,9 @@ class ImageSlider @JvmOverloads constructor(
             AnimationTypes.GATE -> {
                 viewPager!!.setPageTransformer(true, Gate())
             }
+            AnimationTypes.FADE -> {
+                viewPager!!.setPageTransformer(true, Fade())
+            }
             else -> {
                 viewPager!!.setPageTransformer(true, FidgetSpinner())
             }
